@@ -1,0 +1,50 @@
+====== H (10) into Gold+Cr+Si                   =======
+        SRIM-2013.00
+=======================================
+      Data  of  TRIM  Calculation      
+=======================================
+Ion =  H ( 1)   Ion Mass= 001.0080
+Energy  = 1000000.E-05 keV
+Ion Angle to Surface = 0 degrees
+============= TARGET MATERIAL ======================================
+  Layer # 1 - Gold
+  Layer # 1 - Bottom Depth=     1.E+03 A
+  Layer # 1- Density = 5.903E22 atoms/cm3 = 19.31 g/cm3
+  Layer # 1- Au = 100  Atomic Percent = 100  Mass Percent
+====================================================================
+  Layer # 2 - Cr
+  Layer # 2 - Bottom Depth=     1.E+03 A
+  Layer # 2- Density = 8.338E22 atoms/cm3 = 7.2 g/cm3
+  Layer # 2- Cr = 100  Atomic Percent = 100  Mass Percent
+====================================================================
+  Layer # 3 - Si
+  Layer # 3 - Bottom Depth=     5.E+06 A
+  Layer # 3- Density = 4.976E22 atoms/cm3 = 2.321 g/cm3
+  Layer # 3- Si = 100  Atomic Percent = 100  Mass Percent
+====================================================================
+Target energies for target atom = Au
+    Displacement = 25 eV, Binding = 3 eV, Surface = 3.8 eV
+Target energies for target atom = Cr
+    Displacement = 25 eV, Binding = 3 eV, Surface = 4.12 eV
+Target energies for target atom = Si
+    Displacement = 15 eV, Binding = 2 eV, Surface = 4.7 eV
+====================================================================
+Depth Range of Tabulated Data=  000000.E+00  -  200000.E-02  Angstroms
+====================================================================
+Total Ions calculated =  100000
+Average Range         =   53162.E-02 Angstroms
+Average Straggling    =   29163.E-02 Angstroms
+Average Vacancy/Ion   =   31583.E-04
+====================================================================
+Total Backscattered Ions=  15130 
+Total Transmitted Ions  =  0 
+====================================================================
+See files SRIM Outputs\*.txt for tables :
+   TDATA.txt    -- Details of the calculation.
+   RANGE.txt    -- Final distribution of Ions/Recoils
+   VACANCY.txt  -- Distribution of Vacancies
+   IONIZ.txt    -- Distribution of Ionization
+   PHONON.txt   -- Distribution of Phonons
+   E2RECOIL.txt -- Energy transferred to recoils
+   NOVAC.txt    -- Replacement collisions
+   LATERAL.txt  -- Lateral Spread of Ions
